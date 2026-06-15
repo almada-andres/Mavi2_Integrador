@@ -18,7 +18,7 @@ Pelota::Pelota(b2World* world, float x, float y)
 
     b2FixtureDef fixtureDef;
     fixtureDef.shape = &shape;
-    fixtureDef.density = 0.50f;
+    fixtureDef.density = 0.10f;
     fixtureDef.friction = 0.8f;
     fixtureDef.restitution = 0.1f;
 
