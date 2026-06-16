@@ -231,7 +231,7 @@ void Game::Draw()
 
     DrawText("A/D = Mover pelota",20,20,20,BLACK);
     DrawText("Flechas = Mover grua",20,50,20,BLACK);
-    DrawText("Objetivo: llevar la pelota hasta el caliz de fuego",20,80,20,BLACK);
+    DrawText("Objetivo: llevar la pelota hasta el caliz de fuego    -   R para reiniciar",20,80,20,BLACK);
 
     if (m_derrota)
     {
